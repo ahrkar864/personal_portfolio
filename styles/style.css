@@ -1,0 +1,224 @@
+
+body{
+    /* font-family: "Times New Roman", Times, serif; */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.42857143;
+    font-size: 14px;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/* navbar */
+nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #2c3e50;
+    z-index: 100;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    
+}
+
+.nav a {   
+    text-transform: capitalize;
+    display: block; 
+    padding: 10px 12px;
+    margin:15px;
+    border-radius: 0.5rem;
+    /* background-color: #110202; */
+    color: #efefef;
+}
+/* end of navbar */
+
+/* header */
+header {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    height: 500px;
+}
+
+.profile-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; 
+}
+
+.profile-title {
+    color: white;
+    padding-top:30px;
+}
+
+header i {
+    font-size: 30px;
+}
+/* end of header */
+
+ /* resume */
+.resume {
+    /* background-color: #efefef; */
+    padding-top: 10px;
+}
+
+h3.resume-subtitle {
+    font-size: 20px;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+.resume-detail h4 {
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+        
+.resume-detail h6 {
+    font-size: 12px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+        
+.resume-detail p {
+    line-height: 30px;
+    color: #767676;
+}
+
+.col-horizontal {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #767676;
+    padding-top:20px;
+}
+
+.col-horizontal:last-child {
+    border-bottom: 0;
+}
+
+.experience-year {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 4px 20px;
+    margin: 15px 0px 10px 0px;
+}
+
+.col-left, .col-right {
+    padding-top: 80px;
+}
+
+.personal-info h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+  
+.personal-info p {
+    color: #767676;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.button-group div {
+    display: inline-block;
+}
+   
+.button-group .download_cv {
+    margin-right: 18px;
+}
+   
+.button-group a {
+    display: block;
+    color: black;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px 38px;
+    text-transform: capitalize;
+}
+   
+.button-group a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.my_services {
+    background-color: #f9f9f9;
+    padding-bottom: 50px;
+}
+
+.my_services h3 {
+    padding-top: 80px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.services-content h3 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.service-content p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #767676;
+}
+
+/* end of resume */
+footer {
+    padding: 80px 0;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+    
+.footer-content p {
+    line-height: 22px;
+}
+    
+.footer-social-icon a i {
+    color: white;
+    display: inline-block;
+    line-height: 100px;
+    margin: 15px 15px 0 0;
+    font-size: 30px;
+}
