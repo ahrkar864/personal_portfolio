@@ -1,38 +1,48 @@
-
-body{
+body {
     /* font-family: "Times New Roman", Times, serif; */
     font-family: 'Roboto', sans-serif;
     line-height: 1.42857143;
     font-size: 14px;
 }
 
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0px;
-  padding: 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
 }
 
 h2 {
-  margin-bottom: 75px;
-  text-align: center;
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-ul, ol {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-a, a:hover, a:focus {
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
+ul,
+ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
+
+a,
+a:hover,
+a:focus {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
 
 /* navbar */
+
 nav {
     position: fixed;
     width: 100%;
@@ -50,21 +60,24 @@ nav {
 
 .nav li {
     display: inline-block;
-    
 }
 
-.nav a {   
+.nav a {
     text-transform: capitalize;
-    display: block; 
+    display: block;
     padding: 10px 12px;
-    margin:15px;
+    margin: 15px;
     border-radius: 0.5rem;
     /* background-color: #110202; */
     color: #efefef;
 }
+
+
 /* end of navbar */
 
+
 /* header */
+
 header {
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
@@ -74,20 +87,29 @@ header {
 .profile-avatar {
     width: 200px;
     height: 200px;
-    border-radius: 100%; 
+    border-radius: 100%;
 }
 
 .profile-title {
     color: white;
-    padding-top:30px;
+    padding-top: 30px;
+}
+
+.profile-title h1 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
 }
 
 header i {
     font-size: 30px;
 }
+
+
 /* end of header */
 
- /* resume */
+
+/* resume */
+
 .resume {
     /* background-color: #efefef; */
     padding-top: 10px;
@@ -104,13 +126,13 @@ h3.resume-subtitle {
     line-height: 30px;
     text-transform: capitalize;
 }
-        
+
 .resume-detail h6 {
     font-size: 12px;
     margin-bottom: 9px;
     text-transform: capitalize;
 }
-        
+
 .resume-detail p {
     line-height: 30px;
     color: #767676;
@@ -119,7 +141,7 @@ h3.resume-subtitle {
 .col-horizontal {
     padding-bottom: 16px;
     border-bottom: 1px solid #767676;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .col-horizontal:last-child {
@@ -134,7 +156,8 @@ h3.resume-subtitle {
     margin: 15px 0px 10px 0px;
 }
 
-.col-left, .col-right {
+.col-left,
+.col-right {
     padding-top: 80px;
 }
 
@@ -145,7 +168,7 @@ h3.resume-subtitle {
     text-transform: capitalize;
     font-weight: bold;
 }
-  
+
 .personal-info p {
     color: #767676;
     line-height: 24px;
@@ -155,11 +178,11 @@ h3.resume-subtitle {
 .button-group div {
     display: inline-block;
 }
-   
+
 .button-group .download_cv {
     margin-right: 18px;
 }
-   
+
 .button-group a {
     display: block;
     color: black;
@@ -168,11 +191,10 @@ h3.resume-subtitle {
     padding: 10px 38px;
     text-transform: capitalize;
 }
-   
+
 .button-group a:hover {
     background-color: black;
     color: white;
-
 }
 
 .my_services {
@@ -203,18 +225,20 @@ h3.resume-subtitle {
     color: #767676;
 }
 
+
 /* end of resume */
+
 footer {
     padding: 80px 0;
     background-color: #2c3e50;
     color: white;
     text-align: center;
 }
-    
+
 .footer-content p {
     line-height: 22px;
 }
-    
+
 .footer-social-icon a i {
     color: white;
     display: inline-block;
