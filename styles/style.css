@@ -79,20 +79,20 @@ nav {
 /* header */
 
 header {
-    padding-top: calc(6rem + 74px);
+    padding-top: calc(6rem + 55px);
     padding-bottom: 6rem;
     height: 500px;
 }
 
 .profile-avatar {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     border-radius: 100%;
 }
 
 .profile-title {
     color: white;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .profile-title h1 {
