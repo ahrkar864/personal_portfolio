@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahrkar kyaw | Home</title>
-    <link data-react-helmet="true" rel="icon" href="images/71984799.jfif">
+    <link data-react-helmet="true" rel="icon" href="images/ahrkarkyaw.jfif">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -26,7 +29,7 @@
         <div class="container align-items-center ">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 text-center">
-                    <img class="profile-avatar" src="images/71984799.jfif" alt="Profile Avatar" />
+                    <img id="profile-avatar" class="profile-avatar" src="images/ahrkarkyaw.jfif" alt="Profile Avatar" />
                     <div class="profile-title">
                         <h1>Ahrkar kyaw</h1>
                         <p><i class="fab fa-html5" aria-hidden="true"></i>&nbsp&nbspWeb developer(PHP,Laravel,React.js)</p>
@@ -54,7 +57,8 @@
                             <h4>computer science</h4>
                             <h6>University of Computer Studies Meiktila</h6>
                             <p>Recent graduate with a Bachelor's degree in Computer Science from the University of Computer Meiktila. Highly motivated and eager to apply my knowledge and skills in software development and computer science to contribute to
-                                innovative projects. Proficient in programming languages and software development tools, and committed to continuous learning and growth in the field.</p>
+                                innovative projects. Proficient in various programming languages and software development tools, with a strong foundation in database management, software design, and algorithm development. I am committed to continuous
+                                learning and professional growth, having acquired extensive knowledge in programming, databases, software architecture, and algorithmic problem-solving during my studies at Computer University.</p>
                         </div>
                     </div>
                 </div>
@@ -119,12 +123,116 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <h3><i class="fa fa-cogs" aria-hidden="true"></i> Skills and Tools</h3><br>
+                    <div class="row skills-tools">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist" style="justify-content: flex-start;">
+                            <li class="nav-item">
+                                <button class="nav-link active" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="true">Skills</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button" role="tab" aria-controls="tools" aria-selected="false">Tools</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" id="other-knowledges-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button" role="tab" aria-controls="other_knowledges" aria-selected="false">Other Knowledges</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                            <!-- <div class="skill-icon-container">
+                                <i class="fab fa-html5 skill-icon html-icon" title="HTML5"></i>
+                                <i class="fab fa-css3-alt skill-icon css-icon" title="CSS3"></i>
+                                <i class="fab fa-js skill-icon js-icon" title="JavaScript"></i>
+                                <i class="fab fa-bootstrap skill-icon bootstrap-icon" title="Bootstrap"></i>
+                                <i class="fas fa-code skill-icon jquery-icon" title="jQuery"></i>
+                                <i class="fas fa-sync-alt skill-icon ajax-icon" title="AJAX"></i>
+                                <i class="fab fa-react skill-icon react-icon" title="React.js"></i>
+                                <i class="fab fa-php skill-icon php-icon" title="PHP"></i>
+                                <i class="fab fa-laravel skill-icon laravel-icon" title="Laravel"></i>
+                                <i class="fas fa-database skill-icon mysql-icon" title="MySQL"></i>
+                                <i class="fas fa-leaf skill-icon mongodb-icon" title="MongoDB"></i>
+                                <i class="fas fa-cogs skill-icon oop-icon" title="OOP"></i>
+                                <i class="fas fa-code skill-icon json-icon" title="JSON"></i>
+                                <i class="fas fa-link skill-icon rest-api-icon" title="RESTful APIs"></i>
+                                <i class="fab fa-git-alt skill-icon git-icon" title="Git"></i>
+                                <i class="fab fa-github skill-icon github-icon" title="Github"></i>
+                                <i class="fab fa-bitbucket skill-icon bitbucket-icon" title="Bitbucket"></i>
+                                <i class="fas fa-cloud skill-icon devops-icon" title="DevOps Tools"></i>
+                                <i class="fab fa-aws skill-icon aws-icon" title="AWS"></i>
+                                <i class="fab fa-google skill-icon google-cloud-icon" title="Google Cloud"></i>
+                                <i class="fas fa-database skill-icon postgresql-icon" title="PostgreSQL"></i>
+                                <i class="fas fa-server skill-icon pgadmin-icon" title="pgAdmin 4"></i>
+                                <i class="fab fa-css3 skill-icon tailwind-icon" title="Tailwind CSS"></i>
+                            </div> -->
+                            <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                                <div class="skill-icon-container">
+                                    </span><img src="images/html.png" class="skill-icon" title="HTML5" alt="HTML5">
+                                    <!-- <img src="images/css.jpg" class="skill-icon" title="CSS3" alt="CSS3">
+                                    <img src="images/js.jpg" class="skill-icon" title="JavaScript" alt="JavaScript">
+                                    <img src="images/bootstrap.jpg" class="skill-icon" title="Bootstrap" alt="Bootstrap">
+                                    <img src="images/jquery.jpg" class="skill-icon" title="jQuery" alt="jQuery">
+                                    <img src="images/ajax.jpg" class="skill-icon" title="AJAX" alt="AJAX">
+                                    <img src="images/react.jpg" class="skill-icon" title="React.js" alt="React.js">
+                                    <img src="images/php.jpg" class="skill-icon" title="PHP" alt="PHP">
+                                    <img src="images/laravel.jpg" class="skill-icon" title="Laravel" alt="Laravel">
+                                    <img src="images/mysql.jpg" class="skill-icon" title="MySQL" alt="MySQL">
+                                    <img src="images/mongodb.jpg" class="skill-icon" title="MongoDB" alt="MongoDB">
+                                    <img src="images/oop.jpg" class="skill-icon" title="OOP" alt="OOP">
+                                    <img src="images/json.jpg" class="skill-icon" title="JSON" alt="JSON">
+                                    <img src="images/rest-api.jpg" class="skill-icon" title="RESTful APIs" alt="RESTful APIs">
+                                    <img src="images/git.jpg" class="skill-icon" title="Git" alt="Git">
+                                    <img src="images/github.jpg" class="skill-icon" title="Github" alt="Github">
+                                    <img src="images/bitbucket.jpg" class="skill-icon" title="Bitbucket" alt="Bitbucket">
+                                    <img src="images/devops.jpg" class="skill-icon" title="DevOps Tools" alt="DevOps Tools">
+                                    <img src="images/aws.jpg" class="skill-icon" title="AWS" alt="AWS">
+                                    <img src="images/google-cloud.jpg" class="skill-icon" title="Google Cloud" alt="Google Cloud">
+                                    <img src="images/postgresql.jpg" class="skill-icon" title="PostgreSQL" alt="PostgreSQL">
+                                    <img src="images/pgadmin.jpg" class="skill-icon" title="pgAdmin 4" alt="pgAdmin 4">
+                                    <img src="images/tailwind.jpg" class="skill-icon" title="Tailwind CSS" alt="Tailwind CSS"> -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+                            <div class="skill-icon-container">
+                                <i class="fas fa-code-branch skill-icon git-icon" title="Git"></i>
+                                <i class="fab fa-bootstrap skill-icon bootstrap-icon" title="Bootstrap"></i>
+                                <i class="fas fa-database skill-icon mysql-icon" title="MySQL"></i>
+                                <i class="fab fa-vuejs skill-icon vue-icon" title="Vue.js"></i>
+                                <i class="fas fa-server skill-icon node-icon" title="Node.js"></i>
+                                <i class="fas fa-code skill-icon vscode-icon" title="VSCode"></i>
+                                <i class="fas fa-terminal skill-icon cli-icon" title="CLI"></i>
+                                <i class="fab fa-git-alt skill-icon git-icon" title="Git"></i>
+                                <i class="fas fa-cloud skill-icon cloud-icon" title="Cloud"></i>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="other_knowlegeds" role="tabpanel" aria-labelledby="tools-tab">
+                            <div class="skill-icon-container">
+                                <i class="fas fa-code-branch skill-icon git-icon" title="Git"></i>
+                                <i class="fab fa-bootstrap skill-icon bootstrap-icon" title="Bootstrap"></i>
+                                <i class="fas fa-database skill-icon mysql-icon" title="MySQL"></i>
+                                <i class="fab fa-vuejs skill-icon vue-icon" title="Vue.js"></i>
+                                <i class="fas fa-server skill-icon node-icon" title="Node.js"></i>
+                                <i class="fas fa-code skill-icon vscode-icon" title="VSCode"></i>
+                                <i class="fas fa-terminal skill-icon cli-icon" title="CLI"></i>
+                                <i class="fab fa-git-alt skill-icon git-icon" title="Git"></i>
+                                <i class="fas fa-cloud skill-icon cloud-icon" title="Cloud"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <footer>
         <div class="container">
             <div class="footer-content">
-                <p>CopyRight 2023, Ahrkar Kyaw.dev All Rights Reserved</p>
+                <p>CopyRight 2024, Ahrkar Kyaw.dev All Rights Reserved</p>
                 <div class="footer-social-icon">
                     <ul>
                         <li>
@@ -142,3 +250,21 @@
 </body>
 
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let isOriginalImage = true;
+        const imageElement = document.getElementById('profile-avatar');
+        const originalImageSrc = 'images/ahrkarkyaw.jfif';
+        const newImageSrc = 'images/ahrkarkyaw2.jpg';
+
+        setInterval(function() {
+            if (isOriginalImage) {
+                imageElement.src = newImageSrc;
+            } else {
+                imageElement.src = originalImageSrc;
+            }
+            isOriginalImage = !isOriginalImage;
+        }, 10000);
+    });
+</script> -->
